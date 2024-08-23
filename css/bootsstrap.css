@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .inter-text {
+      font-family: "Inter", sans-serif;
+  }
+  
+  header img {
+      width: 100px;
+  }
+  
+  header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+  }
+  
+  header nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Inter', sans-serif;
+      font-weight: bold;
+  }
+  
+  .index-main {
+      background: linear-gradient(90deg, white 5%, pink 30%, rgb(212, 79, 115) 100%);
+  }
+  
+  .bienvenida-img {
+      width: 100%;
+      height: 90vh;
+  }
+  
+  .card img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .titulo-pag {
+      display: flex;
+      flex-direction: column;
+      padding-top: 6.25rem;
+      height: auto;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 1.25rem;
+  }
+  
+  p {
+      font-size: 1.125rem;
+  }
+  
+  h1 {
+      font-size: 2rem;
+  }
+  
+  .parrafo {
+      font-family: "Inter", sans-serif;
+      margin: 3rem auto;
+      font-size: 1.25rem;
+      text-align: center;
+      max-width: 75rem;
+  }
+  
+  footer {
+      background: linear-gradient(90deg, rgba(42, 18, 42, 0.817) 10%, rgba(157, 47, 152, 0.834) 40%, rgb(208, 117, 196) 90%);
+      padding: 2rem 0;
+  }
+  
+  .pie-de-pag {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+  }
+  
+  .logo-img1, .logo-img2, .logo-img3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .625rem;
+  }
+  
+  .pie-de-pag h3 {
+      font-size: 1.875rem;
+  }
+  
+  .logo-img3 {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      gap: .625rem;
+  }
+  
+  .pie-de-pag div {
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+  }
+
+  .container{
+    padding-top: 1.875rem;
+  }
+
+  

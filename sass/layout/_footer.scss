@@ -1,0 +1,48 @@
+footer{ 
+    background: linear-gradient(90deg, rgba(22, 9, 22, 0.817) 10%, rgba(157, 47, 152, 0.834) 40%, rgb(208, 117, 196) 90%);
+    width: 100%;
+}
+.pie-de-pag{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+     .logo-pag{
+                width: 400px;
+    }
+}
+.icono-footer{
+    width: 15%;
+}
+.orden-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+}
+.orden-footer-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: .625rem;
+}
+.orden-footer-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: .625rem;
+}
+.pie-de-pag{
+    h3{
+        text-decoration: none;
+        color: white;
+        font-size: 1.875rem;
+    }
+        div {
+              width: 500px;
+        }
+}

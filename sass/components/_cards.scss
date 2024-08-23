@@ -1,0 +1,52 @@
+.container-cards{
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+    }
+  
+        .card-index{
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          margin-right: 20px;
+          width: 25rem;
+        }
+            .card-index{
+                img{
+                    height: 400px;
+                    width: 400px;
+                 }
+            
+                div{
+                    background-color: white;
+                    height: 15rem;
+            }
+            }
+                .container-cards{ 
+                    h1{
+                       font-size: 1.25rem;
+                       text-align: center;
+                       padding: 1.5rem;
+                }
+                     p{
+                       font-size: 1rem;
+                       text-align: center;
+                       width: 90%;
+                       margin: auto;
+                }
+            }
+    
+    .card-servicios{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 25rem;
+        img{
+            align-self: flex-end;
+        }
+    }

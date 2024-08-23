@@ -1,0 +1,127 @@
+@media (max-width: 1024px){
+    .logo-principal{
+            width:300px;
+            height: 300px;
+        }
+
+        .main-container{
+            h1{
+                font-size: 40px;
+                padding-right: 16px;
+            }
+        } 
+        
+           .pie-de-pag{
+                        div {
+                              width: 18.75rem;
+                        }
+         } 
+
+        footer{
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            img {
+                  width:200px;
+                  height: 200px;
+                  justify-content: flex-start;
+            }
+        
+        .orden-footer-3{
+            display: flex;
+            flex-direction: row;
+            justify-content: left
+        }
+
+        .orden-footer-2{
+                    h3{
+                       font-size: 1.5625rem;
+                }      
+        } 
+        .parrafo1-cursos{
+            p{
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+
+        .parrafo2-cursos{
+            p{
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+        .parrafo3-cursos{
+            p {
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+        
+        .contenido-curso{
+            font-size: 20px;
+            padding-right: 20px;
+            width: 100%;
+        }
+
+        .icono-footer{
+            img{
+                height: 40px;
+                width: 40px;
+            }
+
+            p{
+                font-size: 16px;
+                justify-content: flex-end;
+            }  
+        } 
+
+        .contenido-curso{
+            h2{
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+  
+        .contenido-curso{
+            h3{
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+
+        
+        .h2-curso{
+            font-size: 30px;
+            padding-right: 15px;
+        }
+
+        .lista-beneficios{
+            p{
+                padding-top: 10px;
+                font-size: 16px;
+                padding-right: 15px;
+            }
+        } 
+ 
+        .lista-curso{
+            li{
+                display: flex;
+                flex-direction: rox;
+                font-size: 20px;
+                padding-top: 10px;
+            }
+        } 
+
+        .lista-curso{
+            img{
+                display: flex;
+                flex-direction: row;
+                height: 12.5rem;
+                width: 12.5rem;
+            
+            }
+        } 
+}

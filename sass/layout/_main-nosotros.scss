@@ -1,0 +1,44 @@
+.main-container {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(255, 230, 244) 5%, rgb(249, 198, 206) 30%, rgb(240, 150, 174) 100%);
+    padding-top: 2rem;
+    padding-bottom: 12rem;
+}
+    .h1-general{
+        font-family: "Kite One", sans-serif;
+        padding: 3rem;
+        text-align: center;
+            span{
+                  background: -webkit-linear-gradient(90deg, rgb(231, 108, 108) 20%, rgb(158, 26, 26) 40%, rgb(52, 3, 3) 80%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+            }
+}
+.h1-nosotros{
+    font-family: "Kite One", sans-serif;
+    font-size: 1.875rem;
+}
+
+.container-text{
+    margin-left: 6.25rem;
+    margin-top: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subtitulo-nosotros{
+    font-family: "Kite One", sans-serif;
+    padding-top: 1.875rem;
+    margin-bottom: 3.5rem;
+}
+
+.nosotros {
+    p{
+       width: 100%;
+       font-family: "Inter", sans-serif;
+       align-items: center;
+       text-align: center;
+       margin-bottom: 2rem;
+    }
+}

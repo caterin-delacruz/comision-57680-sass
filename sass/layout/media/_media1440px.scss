@@ -1,0 +1,35 @@
+@media (max-width: 1440px){
+    .main-index{
+        .container-cards{
+            padding: 0;
+        }
+    }
+
+    footer{
+        height: 200px;
+        .pie-de-pag{
+                height: 200px;
+            .orden-footer{
+                width: 200px;
+                height: 200px;
+                .logo-pag{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+            .orden-footer-2{
+                width: 19rem;
+            }
+        }
+        .contacto{
+            .orden-footer-3{
+                    width: 15rem;
+                .icono-footer{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    
+}
