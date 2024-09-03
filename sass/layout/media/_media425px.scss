@@ -1,10 +1,26 @@
-@media (max-width: 565px) {
+@media (max-width: 425px) {
 
+.main-index{
+    .container-cards{
+        flex-direction: column;
 
-.main-container h1 {
-    font-size: 20px;
-    padding-right: 16px;
+        .card-index{
+            width: 22rem;
+            margin: 10%;
+            div{
+                h2{
+                    font-size: 18px;
+                }
+
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
+
+
 
 
 .pie-de-pag div {

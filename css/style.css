@@ -15,13 +15,6 @@
 .kiteone-text {
   font-family: "Kite One", sans-serif; }
 
-header {
-  background-color: white; }
-
-.navbar .navbar-nav {
-  margin-right: 20px;
-  background-color: 0; }
-
 .main-index {
   background: linear-gradient(90deg, white 5%, pink 30%, #d44f73 100%);
   width: 100%;
@@ -39,7 +32,7 @@ header {
  */ }
   .main-index .img-principal-index img {
     width: 100%;
-    height: 62.5rem; }
+    height: 30rem; }
   .main-index .quienes-somos-index {
     display: flex;
     flex-direction: column;
@@ -261,11 +254,14 @@ img {
 
 .grid1 article {
   justify-self: center;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 5;
-  grid-row-end: 7;
+  grid-column: 3/4;
+  grid-row: 6/14;
   order: 2; }
+
+.img-equipo {
+  height: 25rem;
+  width: 25rem;
+  object-fit: contain; }
 
 .grid1 form {
   justify-self: center;
@@ -430,6 +426,17 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+  .container-cards h1 {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1.5rem; }
+  .container-cards p {
+    font-size: 1rem;
+    text-align: center;
+    width: 90%;
+    margin: auto; }
+  .container-cards img {
+    border-radius: 15px 15px 0 0; }
 
 .card-index {
   display: flex;
@@ -437,25 +444,13 @@ footer {
   margin-left: 20px;
   margin-right: 20px;
   width: 25rem; }
-
-.card-index img {
-  height: 400px;
-  width: 400px; }
-
-.card-index div {
-  background-color: white;
-  height: 15rem; }
-
-.container-cards h1 {
-  font-size: 1.25rem;
-  text-align: center;
-  padding: 1.5rem; }
-
-.container-cards p {
-  font-size: 1rem;
-  text-align: center;
-  width: 90%;
-  margin: auto; }
+  .card-index img {
+    height: 60%;
+    width: 100%; }
+  .card-index div {
+    background-color: white;
+    height: 15rem;
+    border-radius: 0 0 15px 15px; }
 
 .card-servicios {
   display: flex;
@@ -466,9 +461,19 @@ footer {
   .card-servicios img {
     align-self: flex-end; }
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .main-index .container-cards {
-    padding: 0; }
+    padding: 0;
+    padding-top: 6.25rem; }
+    .main-index .container-cards .card-index div h2 {
+      font-size: 23px;
+      text-align: center;
+      padding-top: 15px; }
+    .main-index .container-cards .card-index div p {
+      height: 70%;
+      text-align: center;
+      align-content: center;
+      font-size: 18px; }
   footer {
     height: 200px; }
     footer .pie-de-pag {
@@ -509,13 +514,18 @@ footer {
   .logo-principal {
     width: 300px;
     height: 300px; }
-  .main-container h1 {
-    font-size: 40px;
-    padding-right: 16px; }
+  .main-index .container-cards .card-index div h2 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 15px; }
+  .main-index .container-cards .card-index div p {
+    height: 75%;
+    text-align: center;
+    align-content: center;
+    font-size: 15px; }
   .pie-de-pag div {
     width: 18.75rem; }
   footer {
-    height: 300px;
     display: flex;
     flex-direction: column; }
   img {
@@ -638,33 +648,50 @@ footer {
     width: 6.25rem; } }
 
 @media (max-width: 768px) {
-  .main-container section h1 {
-    font-size: 30px; }
-  .main-container .lista-curso .card-lista .img-curso img {
+  .main-index .container-cards .card-index div h2 {
+    font-size: 12px;
+    font-weight: bold; }
+  .main-index .container-cards .card-index div p {
+    font-size: 12px; }
+  .main-index .quienes-somos-index .scale-up-center {
+    font-size: 1rem;
+    width: 100%; }
+  .lista-curso .card-lista .img-curso img {
     height: 9.25rem;
     width: 11.25rem; }
-  .main-container .beneficios article .h2-curso {
-    font-size: 50px; }
-  footer {
+  .beneficios article .h2-curso {
+    font-size: 50px; } }
+
+footer {
+  height: 200px; }
+  footer .orden-footer {
+    width: 200px;
     height: 200px; }
-    footer .orden-footer {
+    footer .orden-footer .logo-pag {
       width: 200px;
       height: 200px; }
-      footer .orden-footer .logo-pag {
-        width: 200px;
-        height: 200px; }
-    footer .orden-footer-2 {
-      width: 19rem; }
-  .contacto .orden-footer-3 {
-    width: 15rem; }
-    .contacto .orden-footer-3 .icono-footer {
-      width: 30px;
-      height: 30px; } }
+  footer .orden-footer-2 {
+    width: 19rem; }
 
-@media (max-width: 565px) {
-  .main-container h1 {
-    font-size: 20px;
-    padding-right: 16px; }
+.contacto .orden-footer-3 {
+  width: 15rem; }
+  .contacto .orden-footer-3 .icono-footer {
+    width: 30px;
+    height: 30px; }
+
+.contacto .inter-text {
+  margin-bottom: 0; }
+
+@media (max-width: 425px) {
+  .main-index .container-cards {
+    flex-direction: column; }
+    .main-index .container-cards .card-index {
+      width: 22rem;
+      margin: 10%; }
+      .main-index .container-cards .card-index div h2 {
+        font-size: 18px; }
+      .main-index .container-cards .card-index div p {
+        font-size: 16px; }
   .pie-de-pag div {
     width: 6.25rem; }
   .lista-curso .card-lista {

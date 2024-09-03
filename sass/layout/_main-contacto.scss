@@ -48,11 +48,15 @@
 
 .grid1 article{
     justify-self: center;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 5 ;
-    grid-row-end: 7;
+    grid-column: 3/4;
+    grid-row: 6/14 ;
     order: 2;
+}
+
+.img-equipo{
+    height: 25rem;
+    width: 25rem;
+    object-fit: contain;
 }
 
 .grid1 form{
