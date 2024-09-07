@@ -1,0 +1,119 @@
+@media (max-width: 600px) {
+
+    .main-index{
+        .img-principal-index{
+            img {
+                height: 20rem;
+            }
+        } 
+        .container-cards{
+            flex-direction: column;
+            align-items: center;
+    
+            .card-index{
+                width: 22rem;
+                margin: 10%;
+                div{
+                    h2{
+                        font-size: 18px;
+                    }
+    
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+      
+    footer {
+        height: 300px;
+    
+        .pie-de-pag {
+            flex-direction: column;
+        }
+    }
+    
+    footer img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .orden-footer-2 {
+        justify-content: center;
+    }
+
+
+    .main-container{
+        .lista-curso{
+            .card-lista {
+                width: 350px;
+                height: 500px;
+                flex-direction: column;
+                .img-curso{
+                    width: 175px;  
+                }    
+                
+            }    
+        }
+    }   
+
+
+
+/*pagina contacto*/
+
+    .main-container {
+        padding-bottom: 0;
+        .formulario{
+            .contactoo{
+                margin-left: 10%;
+                height: 1300px;
+                .img-equipo{
+                    left: 25%;
+                }
+                .formularioo{
+
+
+                    .nombre{
+                        margin-right: 50px;
+                        margin-top: 340px;
+                    }
+                    .e-mail{
+                        margin-right: 50px;
+                    }
+                    .consulta{
+                        margin-right: 50px;
+                    }
+    
+                    .inter-text{
+                        margin-right: 50px;
+                        height: 5%;
+                        width: 70%;
+
+                    }
+    
+                    .inter-text2{
+                        margin-right: 50px;
+                        height: 5%;
+                        width: 70%;
+
+                    }
+                    .inter-text3{
+                        margin-right: 50px;
+                        width: 70%;
+
+                    }
+                    
+                    .btn-enviar{
+                        margin-right: 50px;
+                        height: 4%;
+                        width: 30%;
+
+                    }
+                }      
+            }
+        }
+    }
+
+}        

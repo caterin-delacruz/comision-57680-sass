@@ -26,6 +26,8 @@
         }
     } 
 
+    /*pagina curso*/
+     .main-container{
         .lista-curso{
             .card-lista{
                 .img-curso{
@@ -36,6 +38,7 @@
                 }
             }
         }
+    
 
         .beneficios{
             article{
@@ -44,7 +47,27 @@
                 }
             }
         }
+     }
+
+    /*pagina servicios*/
+
+    .main-container{
+        .h1-general{
+            font-size: 1.5625rem;
+        }
+            
+        .div-servicios{
+            flex-direction: column;
+            h2{
+                margin: 10%;
+            }
+            P{
+                margin: 10%;
+            }
+        }
     }
+    
+    
 
     footer{
         height: 200px;
@@ -60,7 +83,7 @@
             .orden-footer-2{
                 width: 19rem;
             }
-        }
+        
         .contacto{
             .orden-footer-3{
                     width: 15rem;
@@ -74,3 +97,46 @@
                 margin-bottom: 0;
             }
         }
+    }
+/*página contacto*/
+            
+    .main-container {
+        .formulario{
+            .contactoo{
+
+                .img-equipo{
+                    height: 290px;
+                    position: absolute;
+                    top: 115%;
+
+                }
+                .formularioo{
+                    height: 80%;
+
+                    .nombre{
+                        font-size: 15px;
+                    }
+                    .e-mail{
+                        font-size: 15px;
+                    }
+                    .consulta{
+                        font-size: 15px;
+                    }
+
+
+                    .inter-text3{
+
+                        height: 150px;
+                    }
+                    
+                    .btn-enviar{
+
+                        width: 20%;
+                    }
+                }      
+            }
+        }
+    }
+}
+
+ 

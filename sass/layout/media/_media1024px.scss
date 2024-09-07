@@ -33,7 +33,6 @@
         footer{
             display: flex;
             flex-direction: column;
-        }
 
             img {
                   width:200px;
@@ -52,31 +51,6 @@
                        font-size: 1.5625rem;
                 }      
         } 
-        .parrafo1-cursos{
-            p{
-                font-size: 16px;
-                padding-right: 15px;
-            }
-        } 
-
-        .parrafo2-cursos{
-            p{
-                font-size: 16px;
-                padding-right: 15px;
-            }
-        } 
-        .parrafo3-cursos{
-            p {
-                font-size: 16px;
-                padding-right: 15px;
-            }
-        } 
-        
-        .contenido-curso{
-            font-size: 20px;
-            padding-right: 20px;
-            width: 100%;
-        }
 
         .icono-footer{
             img{
@@ -90,21 +64,25 @@
             }  
         } 
 
-        .contenido-curso{
-            h2{
+        /*pagina curso*/
+
+        .parrafo1-cursos{
+            p{
                 font-size: 16px;
-                padding-right: 15px;
-            }
-        } 
-  
-        .contenido-curso{
-            h3{
-                font-size: 16px;
-                padding-right: 15px;
             }
         } 
 
-        
+        .parrafo2-cursos{
+            p{
+                font-size: 16px;
+            }
+        } 
+        .parrafo3-cursos{
+            p {
+                font-size: 16px;
+            }
+        } 
+
         .h2-curso{
             font-size: 30px;
             padding-right: 15px;
@@ -118,22 +96,49 @@
             }
         } 
  
-        .lista-curso{
-            li{
-                display: flex;
-                flex-direction: rox;
-                font-size: 20px;
-                padding-top: 10px;
-            }
-        } 
 
-        .lista-curso{
-            img{
-                display: flex;
-                flex-direction: row;
-                height: 12.5rem;
-                width: 12.5rem;
-            
+
+        /*pagina contacto*/
+        .main-container {
+
+    
+            .formulario{
+    
+                .contactoo{
+    
+                    .img-equipo{
+                        height: 400px;
+                        position: absolute;
+                        left: 12%;
+                        top: 155%;
+                    }
+                    .formularioo{
+                        width: 85%;
+                        margin-right: 15%;
+
+                        .inter-text{
+                            width: 50%;
+                        }
+        
+                        .inter-text2{
+                            width: 50%;
+                        }
+                        .inter-text3{
+                            width: 50%;
+                        }
+                        
+                        .btn-enviar{
+                            margin-right: 35px;
+                            border-radius: 10px;
+                            height: 5%;
+                            width: 15%;
+                        }
+                    }
+                            
+                            
+                }
+    
             }
-        } 
-}
+        }
+    }
+}       

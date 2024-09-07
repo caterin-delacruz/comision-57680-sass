@@ -3,17 +3,17 @@
     background: linear-gradient(90deg, rgb(255, 230, 244) 5%, rgb(249, 198, 206) 30%, rgb(240, 150, 174) 100%);
     padding-top: 2rem;
     padding-bottom: 12rem;
-}
-    .h1-general{
-        font-family: "Kite One", sans-serif;
-        padding: 3rem;
-        text-align: center;
-            span{
-                  background: -webkit-linear-gradient(90deg, rgb(231, 108, 108) 20%, rgb(158, 26, 26) 40%, rgb(52, 3, 3) 80%);
-                  -webkit-background-clip: text;
-                  -webkit-text-fill-color: transparent;
+
+        .h1-general{
+            font-family: "Kite One", sans-serif;
+            padding: 3rem;
+            text-align: center;
+                span{
+                    background: -webkit-linear-gradient(90deg, rgb(231, 108, 108) 20%, rgb(158, 26, 26) 40%, rgb(52, 3, 3) 80%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
             }
-}
         .font-italiano{
                 font-family: "Italianno", cursive;
                 font-size: 4rem;
@@ -47,15 +47,7 @@
             font-family: "Kite One", sans-serif;
             width: 100%;
         }
-        .card-lista{
-            margin: auto;
-            margin-top: 5rem;
-            margin-bottom: 5rem;
-            background: rgba( 255, 255, 255, 0.25 );  
-            backdrop-filter: blur( 2.5px );
-            border-radius: 50px;
-            border: 1px solid rgba( 255, 255, 255, 0.18 );
-        }
+        
         .contenido-curso{
             padding-left: 1.25rem;
             font-family: "Kite One", sans-serif;
@@ -77,12 +69,24 @@
                 height: 25rem;
                 width: 70%;
             }
+            .card-lista{
+                margin: auto;
+                margin-top: 5rem;
+                margin-bottom: 5rem;
+                background: rgba( 255, 255, 255, 0.25 );  
+                backdrop-filter: blur( 2.5px );
+                border-radius: 50px;
+                border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+                .img-curso{
+                    height: 15rem;
+                    width: 15rem;
+                    border-radius: 15px;
+                }
+            }
+           
         }         
-        img{
-            height: 15rem;
-            width: 15rem;
-            border-radius: 15px;
-        }
+
         .h2-curso{
             text-align: center;
             margin: 1.875rem;
@@ -99,6 +103,6 @@
             width: 100%;
         }
     }
-    
+}  
 
 

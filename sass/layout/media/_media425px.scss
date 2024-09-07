@@ -1,6 +1,11 @@
 @media (max-width: 425px) {
 
 .main-index{
+    .img-principal-index{
+        img {
+            height: 20rem;
+        }
+    } 
     .container-cards{
         flex-direction: column;
 
@@ -22,117 +27,97 @@
 
 
 
+    footer {
+        height: 300px;
 
-.pie-de-pag div {
-    width: 6.25rem;
-}
-
-.lista-curso .card-lista {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 31.25rem;
-}
-
-footer {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-
-    .pie-de-pag {
-        flex-direction: column;
+        .pie-de-pag {
+            flex-direction: column;
+        }
     }
-}
 
-footer img {
-    width: 80px;
-    height: 80px;
-    justify-content: flex-start;
-}
+    footer img {
+        width: 80px;
+        height: 80px;
+    }
 
-article div img {
-    display: flex;
-    flex-direction: row;
-    justify-content: left
-}
 
-.orden-footer-2 {
-    width: 100%;
-    justify-content: center;
+    .orden-footer-2 {
+        justify-content: center;
+    }
 
-    .orden-footer-2 h3 {
+
+    /*pagina cursos*/
+
+    .parrafo1-cursos p {
         font-size: 13px;
-        text-align: center;
     }
-}
 
-.parrafo1-cursos p {
-    font-size: 13px;
-    padding-right: 15px;
-}
+    .parrafo2-cursos p {
+        font-size: 13px;
+    }
 
-.parrafo2-cursos p {
-    font-size: 13px;
-    padding-right: 15px;
-}
+    .parrafo3-cursos p {
+        font-size: 13px;
+    }
 
-.parrafo3-cursos p {
-    font-size: 13px;
-    padding-right: 15px;
-}
+    .main-container{
+        .lista-curso{
+            .card-lista {
+                width: 300px;
+                height: 500px;
+                flex-direction: column;
+            }
+    
+            .contenido-curso {
+            font-size: 12px;
+                h2 {
+                font-size: 16px;
+                }
+                h3 {
+                font-size: 16px;
+                }
+            }    
+        }
 
-.contenido-curso {
-    font-size: 16px;
-    padding-right: 20px;
-    width: 100%;
-}
+        .beneficios{
+            .h2-curso {
+                font-size: 30px;
+                padding-right: 15px;
+            }
+        
+            .lista-beneficios {
+                p{padding-top: 10px;
+                font-size: 16px;
+                padding-right: 15px;
+                margin-bottom: 0;
+                padding-bottom: 15px;
+                }
+            }
+        }
+    }   
 
-div.logo-img3 img {
-    height: 40px;
-    width: 40px;
-}
+    
 
-div.logo-img3 p {
-    font-size: 8px;
-    justify-content: flex-end;
-}
+       /*pagina nosotros*/
 
+       .main-container{
+        .h1-general{
+            .inter-text{
+               font-size: 1rem; 
+            }
+        }
+    }    
 
-.contenido-curso h2 {
-    font-size: 16px;
-    padding-right: 15px;
-}
+    /*página contacto*/
+            
+    .main-container {
+        .formulario{
+            .contactoo{
 
-.contenido-curso h3 {
-    font-size: 16px;
-    padding-right: 15px;
-}
-
-
-.h2-curso {
-    font-size: 30px;
-    padding-right: 15px;
-}
-
-.lista-beneficios p {
-    padding-top: 10px;
-    font-size: 16px;
-    padding-right: 15px;
-}
-
-.lista-curso ul li {
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
-    padding-right: 15px;
-    padding-top: 20px;
-}
-
-.lista-curso img {
-    display: flex;
-    flex-direction: column;
-    height: 6.25rem;
-    width: 6.25rem;
-
-}
+                .img-equipo{
+                    left: 22%;
+                }
+            }
+        }
+    }
 }

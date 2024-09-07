@@ -22,6 +22,32 @@
         }
     }
 
+    .main-container{
+        .lista-curso{
+            article{
+                width: 80%;
+            }        
+        }    
+    }
+    
+    /*pagina servicios*/
+
+    .main-container{
+        .div-servicios{
+            padding-left: 1.875rem;
+            padding-right: 1.875rem;
+            .h2-servicios{
+                h2{
+                    font-size: 3.125rem;
+                }
+                p{
+                    font-size: 1.125rem;
+                }
+            }
+        }
+    } 
+
+
     footer{
         height: 200px;
         .pie-de-pag{
@@ -48,5 +74,14 @@
             }
         }
     }
-    
+
+    /*pagina contacto*/
+
+    .main-container{
+        .grid1{
+            .img-equipo{
+                margin-right: 220px;
+            }
+        }
+    }
 }

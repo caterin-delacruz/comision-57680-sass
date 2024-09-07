@@ -1,0 +1,89 @@
+@media (max-width: 320px) {
+
+    .logo-principal{
+        width:100px;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .main-index{
+        .img-principal-index{
+            img {
+                height: 14rem;
+            }
+        } 
+    
+        .container-cards{
+
+            flex-direction: column;
+    
+            .card-index{
+                width: 16rem;
+                margin: 10%;
+                div{
+                    h2{
+                        font-size: 13px;
+                    }
+    
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .quienes-somos-index{
+
+        h2{
+            font-size: 15px;
+        }
+        .scale-up-center{
+            font-size: .7rem;
+            width: 80%;
+        }
+    }
+
+
+    /*pagina servicios*/
+
+    .main-container{
+
+        .div-servicios{
+            margin-bottom: 0;
+            .h2-servicios{
+                h2{
+                    font-size: 2.7rem;
+                }
+            }
+        }
+    }
+
+/*pagina contacto*/
+
+    .main-container {
+        .formulario{
+            .contactoo{
+
+                .img-equipo{
+                    height: 250px;
+                    left: 20%;
+                    top:120%
+
+                }
+                .formularioo{
+                    .italianno-text{
+                        font-size: 2.5rem;
+                    }
+                    
+
+
+                }      
+            }
+        }
+    }
+}
+
+ 
+    

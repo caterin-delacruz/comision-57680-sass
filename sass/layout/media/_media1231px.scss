@@ -1,0 +1,86 @@
+@media (max-width: 1231px){
+    .main-index{
+        .container-cards{
+            .card-index{
+                div{
+                    h2{
+                        font-size: 17px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    } 
+
+    .pie-de-pag{
+        div{
+            width: 100%;
+        }
+    } 
+
+    .icono-footer {
+        justify-content: center;
+    }
+
+    div.logo-img3{
+        width: 300px;
+    }
+
+
+    
+    .parrafo2-cursos{
+        p{
+            font-size: 15px;
+            padding-right: 100px;
+        }
+    } 
+    .parrafo3-cursos{
+        p {
+            font-size: 15px;
+            padding-right: 100px;
+        }
+    }
+    .lista-beneficios p{
+        font-size: 16px;
+        width: 80%;
+
+    }
+        .main-container{
+            .lista-curso{
+                .card-lista{
+                    .img-curso{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+    /*pagina contacto*/
+    .main-container {
+
+    
+        .formulario{
+
+            .contactoo{
+
+                .img-equipo{
+                    height: 450px;
+                    position: absolute;
+                    left: 20%;
+                    top: 120%;
+                    
+                }
+
+                .formularioo{
+                    width: 75%;
+                    margin-right: 20%;
+                }
+                        
+            }
+
+        }
+    }
+}
+
